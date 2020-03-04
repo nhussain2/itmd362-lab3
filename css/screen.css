@@ -198,13 +198,71 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body{
+  background-color: #DCDCDC;
+}
+
 label {
   display: block;
 }
 
 /* ===== LAYOUT STYLES ====== */
+#title{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.375em;
+  background-color: #D3D3D3;
+  text-align: center;
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
 
-/* ===== MODULAR STYLES ===== */
+#desc{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.375em;
+  text-align: center;
+  background-color: #778899;
+  color: white;
 
-/* ===== STATE STYLES ======= */
+}
+
+#inputform{
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width:100%;
+  padding: 0.5em;
+  background-color:#2F4F4F;
+  color:white;
+  text-align: center;
+}
+
+input{
+  width:100%;
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  border:none;
+  margin-bottom: 0.6em;
+  margin-top:0.6em;
+  background-color:#778899;
+  padding: 0.55em;
+  color: white;
+}
+
+#submit{
+  background-color: white;
+  padding: 0.7em;
+  color:#2F4F4F ;
+  font-weight: bold;
+}
+
+label{
+  font-size: 1.1em;
+  font-family: 'Noto Sans', sans-serif;
+}
 
